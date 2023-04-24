@@ -87,7 +87,7 @@
                 };
                 return {
                     codeImgUrl: "".concat(this.$BASE_API, "/sms/system/getVerifiCodeImage"),
-                    loginForm: {username: "admin", password: "admin", verifiCode: null, userType: null},
+                    loginForm: {username: "", password: "", verifiCode: null, userType: null},
                     loginRules: {
                         username: [{required: !0, validator: e}],
                         password: [{required: !0, trigger: "blur", validator: t}],
